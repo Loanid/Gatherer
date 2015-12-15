@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace GathererWindowsWPF
+namespace GathererTest
 {
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
@@ -23,6 +23,7 @@ namespace GathererWindowsWPF
         public MainWindow()
         {
             InitializeComponent();
+            GathererDB.Gatherer oTest = new GathererDB.Gatherer("C:/Temp/" + DateTime.Now.Month + "/" + DateTime.Now.Day +"/");
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GathererWindowsWPF.Properties
+namespace GathererTest.Properties
 {
 
 

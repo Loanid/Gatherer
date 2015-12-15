@@ -3,24 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gatherer", "Gatherer\Gatherer.csproj", "{D5B4DFAA-600F-4B97-9F63-673F581206AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GathererDB", "GathererDB\GathererDB.csproj", "{18102233-C0A2-423B-A734-B3E1EC2E7AB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GathererWindowsWPF", "GathererWindowsWPF\GathererWindowsWPF.csproj", "{3EF368F1-725A-4E48-A1EF-B806697C96CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GathererTest", "GathererTest\GathererTest.csproj", "{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5B4DFAA-600F-4B97-9F63-673F581206AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5B4DFAA-600F-4B97-9F63-673F581206AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5B4DFAA-600F-4B97-9F63-673F581206AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5B4DFAA-600F-4B97-9F63-673F581206AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EF368F1-725A-4E48-A1EF-B806697C96CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EF368F1-725A-4E48-A1EF-B806697C96CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EF368F1-725A-4E48-A1EF-B806697C96CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EF368F1-725A-4E48-A1EF-B806697C96CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Debug|x86.ActiveCfg = Debug|x86
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Debug|x86.Build.0 = Debug|x86
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Release|x86.ActiveCfg = Release|x86
+		{18102233-C0A2-423B-A734-B3E1EC2E7AB0}.Release|x86.Build.0 = Release|x86
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE3DF56C-3027-4D1C-80C2-9EBC640AFC24}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
